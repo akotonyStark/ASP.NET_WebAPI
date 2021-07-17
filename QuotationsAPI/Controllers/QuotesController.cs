@@ -1,26 +1,39 @@
-﻿using QuotationsAPI.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
+using System.Net;
+using System.Net.Http;
 using System.Web.Http;
 
 namespace QuotationsAPI.Controllers
 {
-    public class QuotesController: ApiController
+    public class QuotesController : ApiController
     {
-        List<Quote> _quotes = new List<Quote>()
+        // GET: api/Quotes
+        public IEnumerable<string> Get()
         {
-             new Quote() {Id=0, Author="Spiderman", Description = "With great power comes great responsibility", Title = "Power" }
-
-        };
-
-
-        public IEnumerable<Quote> Get()
-        {
-            return _quotes;
+            return new string[] { "value1", "value2" };
         }
 
-       
+        // GET: api/Quotes/5
+        public string Get(int id)
+        {
+            return "value";
+        }
+
+        // POST: api/Quotes
+        public void Post([FromBody]string value)
+        {
+        }
+
+        // PUT: api/Quotes/5
+        public void Put(int id, [FromBody]string value)
+        {
+        }
+
+        // DELETE: api/Quotes/5
+        public void Delete(int id)
+        {
+        }
     }
 }

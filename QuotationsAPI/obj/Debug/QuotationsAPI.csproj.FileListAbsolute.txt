@@ -83,3 +83,7 @@ C:\Users\PSL-JERRY\source\repos\QuotationsAPI\QuotationsAPI\obj\Debug\Quotations
 C:\Users\PSL-JERRY\source\repos\QuotationsAPI\QuotationsAPI\obj\Debug\QuotationsAPI.csproj.CopyComplete
 C:\Users\PSL-JERRY\source\repos\QuotationsAPI\QuotationsAPI\obj\Debug\QuotationsAPI.dll
 C:\Users\PSL-JERRY\source\repos\QuotationsAPI\QuotationsAPI\obj\Debug\QuotationsAPI.pdb
+C:\Users\PSL-JERRY\source\repos\QuotationsAPI\QuotationsAPI\bin\EntityFramework.dll
+C:\Users\PSL-JERRY\source\repos\QuotationsAPI\QuotationsAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\PSL-JERRY\source\repos\QuotationsAPI\QuotationsAPI\bin\EntityFramework.xml
+C:\Users\PSL-JERRY\source\repos\QuotationsAPI\QuotationsAPI\bin\EntityFramework.SqlServer.xml
