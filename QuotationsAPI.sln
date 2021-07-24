@@ -5,6 +5,13 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuotationsAPI", "QuotationsAPI\QuotationsAPI.csproj", "{DCA5A813-773E-43B0-8EC3-C76FE144CF3D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DBD4B278-ADBA-48BD-A008-C63F9AA02D8B}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticatedQuotesAPI", "AuthenticatedQuotesAPI\AuthenticatedQuotesAPI.csproj", "{E24072C9-7624-4D3B-BDE8-574244D80F9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{DCA5A813-773E-43B0-8EC3-C76FE144CF3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCA5A813-773E-43B0-8EC3-C76FE144CF3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCA5A813-773E-43B0-8EC3-C76FE144CF3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E24072C9-7624-4D3B-BDE8-574244D80F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E24072C9-7624-4D3B-BDE8-574244D80F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E24072C9-7624-4D3B-BDE8-574244D80F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E24072C9-7624-4D3B-BDE8-574244D80F9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

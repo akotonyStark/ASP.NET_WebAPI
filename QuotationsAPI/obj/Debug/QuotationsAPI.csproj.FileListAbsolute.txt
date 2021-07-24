@@ -78,7 +78,6 @@ C:\Users\PSL-JERRY\source\repos\QuotationsAPI\QuotationsAPI\bin\System.Web.WebPa
 C:\Users\PSL-JERRY\source\repos\QuotationsAPI\QuotationsAPI\bin\System.Web.WebPages.Razor.xml
 C:\Users\PSL-JERRY\source\repos\QuotationsAPI\QuotationsAPI\bin\Antlr3.Runtime.pdb
 C:\Users\PSL-JERRY\source\repos\QuotationsAPI\QuotationsAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\PSL-JERRY\source\repos\QuotationsAPI\QuotationsAPI\obj\Debug\QuotationsAPI.csprojAssemblyReference.cache
 C:\Users\PSL-JERRY\source\repos\QuotationsAPI\QuotationsAPI\obj\Debug\QuotationsAPI.csproj.CoreCompileInputs.cache
 C:\Users\PSL-JERRY\source\repos\QuotationsAPI\QuotationsAPI\obj\Debug\QuotationsAPI.csproj.CopyComplete
 C:\Users\PSL-JERRY\source\repos\QuotationsAPI\QuotationsAPI\obj\Debug\QuotationsAPI.dll
@@ -87,3 +86,9 @@ C:\Users\PSL-JERRY\source\repos\QuotationsAPI\QuotationsAPI\bin\EntityFramework.
 C:\Users\PSL-JERRY\source\repos\QuotationsAPI\QuotationsAPI\bin\EntityFramework.SqlServer.dll
 C:\Users\PSL-JERRY\source\repos\QuotationsAPI\QuotationsAPI\bin\EntityFramework.xml
 C:\Users\PSL-JERRY\source\repos\QuotationsAPI\QuotationsAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\PSL-JERRY\source\repos\QuotationsAPI\QuotationsAPI\obj\Debug\QuotationsAPI.Migrations.InitialCreate.resources
+C:\Users\PSL-JERRY\source\repos\QuotationsAPI\QuotationsAPI\obj\Debug\QuotationsAPI.csproj.GenerateResource.cache
+C:\Users\PSL-JERRY\source\repos\QuotationsAPI\QuotationsAPI\obj\Debug\QuotationsAPI.Migrations.QuoteDTOUpdated.resources
+C:\Users\PSL-JERRY\source\repos\QuotationsAPI\QuotationsAPI\obj\Debug\QuotationsAPI.Migrations.ValidationAdded.resources
+C:\Users\PSL-JERRY\source\repos\QuotationsAPI\QuotationsAPI\obj\Debug\QuotationsAPI.Migrations.addedCreatedAt.resources
+C:\Users\PSL-JERRY\source\repos\QuotationsAPI\QuotationsAPI\obj\Debug\QuotationsAPI.csproj.AssemblyReference.cache

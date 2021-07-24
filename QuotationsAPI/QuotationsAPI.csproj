@@ -169,6 +169,23 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202107180043213_InitialCreate.cs" />
+    <Compile Include="Migrations\202107180043213_InitialCreate.designer.cs">
+      <DependentUpon>202107180043213_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202107201935239_QuoteDTOUpdated.cs" />
+    <Compile Include="Migrations\202107201935239_QuoteDTOUpdated.designer.cs">
+      <DependentUpon>202107201935239_QuoteDTOUpdated.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202107202010048_ValidationAdded.cs" />
+    <Compile Include="Migrations\202107202010048_ValidationAdded.designer.cs">
+      <DependentUpon>202107202010048_ValidationAdded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202107222326051_addedCreatedAt.cs" />
+    <Compile Include="Migrations\202107222326051_addedCreatedAt.designer.cs">
+      <DependentUpon>202107222326051_addedCreatedAt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Quote.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -255,6 +272,20 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202107180043213_InitialCreate.resx">
+      <DependentUpon>202107180043213_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107201935239_QuoteDTOUpdated.resx">
+      <DependentUpon>202107201935239_QuoteDTOUpdated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107202010048_ValidationAdded.resx">
+      <DependentUpon>202107202010048_ValidationAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107222326051_addedCreatedAt.resx">
+      <DependentUpon>202107222326051_addedCreatedAt.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
