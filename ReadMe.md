@@ -20,3 +20,7 @@ install EntityFramework from the Nugget Packages to work with databases
 - type "add-migration <appropriate_name>" to scaffold it
 - type "update-database" to take effect
 - 
+
+# Links for grant types
+- https://auth0.com/docs/api-auth/tutorials/client-credentials
+- https://www.oauth.com/oauth2-servers/access-tokens/client-credentials/
