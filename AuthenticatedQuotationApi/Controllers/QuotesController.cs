@@ -24,6 +24,7 @@ namespace AuthenticatedQuotationApi.Controllers
         // GET: api/Quotes
         //public IEnIumerable<Quote> Get()
         [HttpGet]
+        [AllowAnonymous]
         [Route("api/Quotes/LoadQuotes/{sort=}")]
         public IHttpActionResult LoadQuotes(string sort)
         {
@@ -53,7 +54,7 @@ namespace AuthenticatedQuotationApi.Controllers
         // GET: api/Quotes/5
         //public Quote Get(int id)
         [HttpGet]
-    
+        [Route("api/Quotes/LoadQuote/{id}")]
         public IHttpActionResult LoadQuote(int id)
         {
             //return _quotes[id] = quote;
