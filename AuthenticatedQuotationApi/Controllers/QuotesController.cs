@@ -9,6 +9,7 @@ using System.Web.Http;
 
 namespace AuthenticatedQuotationApi.Controllers
 {
+    [Authorize]
     public class QuotesController : ApiController
     {
         ApplicationDbContext _dbContext = new ApplicationDbContext();
@@ -23,7 +24,7 @@ namespace AuthenticatedQuotationApi.Controllers
         // GET: api/Quotes
         //public IEnIumerable<Quote> Get()
         [HttpGet]
-       
+        [Route("api/Quotes/LoadQuotes/{sort=}")]
         public IHttpActionResult LoadQuotes(string sort)
         {
             //var quotes = _dbContext.Quotes;
