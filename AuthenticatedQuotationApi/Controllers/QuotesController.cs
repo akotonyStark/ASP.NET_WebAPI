@@ -91,6 +91,7 @@ namespace AuthenticatedQuotationApi.Controllers
         // PUT: api/Quotes/5
         //public void Put(int id, [FromBody] Quote quote)
         [HttpPut]
+        [Route("api/Quotes/PutQuotes/{id}")]
         public IHttpActionResult PutQuotes(int id, [FromBody] Quote quote)
         {
             if (!ModelState.IsValid)
@@ -118,6 +119,7 @@ namespace AuthenticatedQuotationApi.Controllers
         // DELETE: api/Quotes/5
         //public void Delete(int id)
         [HttpDelete]
+        [Route("api/Quotes/DeleteQuotes/{id}")]
         public IHttpActionResult DeleteQuotes(int id)
         {
             var item = _dbContext.Quotes.Find(id);
