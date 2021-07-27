@@ -98,6 +98,7 @@ namespace AuthenticatedQuotationApi.Controllers
         [Route("api/Quotes/PutQuotes/{id}")]
         public IHttpActionResult PutQuotes(int id, [FromBody] Quote quote)
         {
+            string userId = User.Identity.GetUserId();
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
@@ -106,6 +107,11 @@ namespace AuthenticatedQuotationApi.Controllers
             else
             {
                 var item = _dbContext.Quotes.FirstOrDefault(q => q.Id == id);
+
+                if(userId != item.UserId)
+                {
+                    return BadRequest("Access denied");
+                }
                 if (item == null)
                 {
                     return BadRequest("Record not found");
@@ -126,10 +132,15 @@ namespace AuthenticatedQuotationApi.Controllers
         [Route("api/Quotes/DeleteQuotes/{id}")]
         public IHttpActionResult DeleteQuotes(int id)
         {
+            string userId = User.Identity.GetUserId();
             var item = _dbContext.Quotes.Find(id);
             if(item == null)
             {
                 return BadRequest("Record not found");
+            }
+            if(userId != item.UserId)
+            {
+                return BadRequest("Access denied");
             }
             _dbContext.Quotes.Remove(item);
             _dbContext.SaveChanges();
