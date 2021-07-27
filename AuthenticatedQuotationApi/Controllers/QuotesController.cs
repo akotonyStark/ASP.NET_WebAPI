@@ -66,6 +66,15 @@ namespace AuthenticatedQuotationApi.Controllers
             return Ok(quote);
         }
 
+        [HttpGet]
+        [Route("api/Quotes/GetMyQuotes")]
+        public IHttpActionResult GetMyQuotes()
+        {
+            string userId = User.Identity.GetUserId();
+            var quotes = _dbContext.Quotes.Where(q => q.UserId == userId);
+            return Ok(quotes);
+        }
+
 
         [HttpGet]
         [Route("api/Quotes/Test/{id}")]
