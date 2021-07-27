@@ -6,6 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using WebApi.OutputCache.V2;
 
 namespace AuthenticatedQuotationApi.Controllers
 {
@@ -23,6 +24,7 @@ namespace AuthenticatedQuotationApi.Controllers
 
         // GET: api/Quotes
         //public IEnIumerable<Quote> Get()
+        [CacheOutput(ClientTimeSpan = 60)]
         [HttpGet]
         [AllowAnonymous]
         [Route("api/Quotes/LoadQuotes/{sort=}")]
