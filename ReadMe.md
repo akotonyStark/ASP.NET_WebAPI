@@ -24,3 +24,7 @@ install EntityFramework from the Nugget Packages to work with databases
 # Links for grant types
 - https://auth0.com/docs/api-auth/tutorials/client-credentials
 - https://www.oauth.com/oauth2-servers/access-tokens/client-credentials/
+
+# cacheing nuget package
+- strathweb.CacheOutput.WebApi2
+
