@@ -1,5 +1,5 @@
 using AuthenticatedQuotationApi.Models;
-
+using Microsoft.AspNet.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -78,6 +78,10 @@ namespace AuthenticatedQuotationApi.Controllers
         [HttpPost]
         public IHttpActionResult PostQuotes([FromBody] Quote quote)
         {
+
+            string userId = User.Identity.GetUserId();
+            quote.UserId = userId;
+             
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
