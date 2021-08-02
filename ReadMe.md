@@ -13,6 +13,8 @@
 
 install EntityFramework from the Nugget Packages to work with databases
 
+connection string in web.config file
+
 
 # implementing Migrations
 - open the package manger console
